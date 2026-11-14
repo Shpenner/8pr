@@ -12,7 +12,7 @@ namespace _8pr.Classes
         public string Size { get; set; }
         public Sport(string Name, int Price, string Size) : base(Name, Price)
         {
-            this.Size = size;
+            this.Size = Size;
         }
     }
 }
