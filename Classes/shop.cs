@@ -6,17 +6,15 @@ using System.Threading.Tasks;
 
 namespace _8pr.Classes
 {
-    public class shop
+    public class Shop
     {
         public string Name { get; set; }
         public int Price {  get; set; }
 
-        public shop(string name, int price)
+        public Shop(string name, int price)
         {
             this.Name = name;
             this.Price = price;
-        }
-
-        
+        }  
     }
 }
