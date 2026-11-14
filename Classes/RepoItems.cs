@@ -9,7 +9,7 @@ namespace _8pr.Classes
 {
     public class RepoItems
     {
-        public static List<object> AllItens()
+        public static List<object> AllItems()
         {
             List<object> allItems = new List<object>();
 
