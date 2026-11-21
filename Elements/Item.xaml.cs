@@ -40,6 +40,13 @@ namespace _8pr.Elements
                 Classes.Sport SportData = ItemData as Classes .Sport;
                 tb_Characteristic.Content = "Размер: " + SportData.Size;
             }
+
+            if (ItemData is Classes.Electro)
+            {
+                Classes.Electro ElectroData = ItemData as Classes .Electro;
+                tb_Characteristic.Content = "Ёмкость аккумулятор: " + ElectroData.batteryCapacity;
+                tb_CharacteristicDop.Content = "Скорость: " + ElectroData.speed;
+            }
         }
     }
 }

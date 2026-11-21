@@ -19,6 +19,8 @@ namespace _8pr.Classes
             allItems.Add(new Sport("Спортивный мужской костюм", 4913, "S"));
             allItems.Add(new Sport("Мяч для водного поло", 812, "61-63 см"));
             allItems.Add(new Sport("Набор для гольфа Partida", 3950, "600*800 мм"));
+            allItems.Add(new Electro("Электросамокат", 10000, "50000 мАч", "25 км/ч"));
+            allItems.Add(new Electro("Электрический велосипед", 15250, "55000 мАч", "50 км/ч"));
 
             return allItems;
         }
